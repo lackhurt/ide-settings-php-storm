@@ -1,0 +1,11 @@
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="CheckinFiles">
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
+  </action>
+  <action id="UpdateFiles">
+    <keyboard-shortcut first-keystroke="ctrl meta u" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="ctrl meta h" />
+  </action>
+</keymap>
