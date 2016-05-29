@@ -1,10 +1,6 @@
-<keymap version="1" name="lackhurt" parent="Mac OS X 10.5+">
+<keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
   <action id="CheckinFiles">
     <keyboard-shortcut first-keystroke="ctrl meta s" />
-  </action>
-  <action id="JumpToLastChange">
-    <keyboard-shortcut first-keystroke="shift meta back_space" />
-    <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
   <action id="UpdateFiles">
     <keyboard-shortcut first-keystroke="ctrl meta u" />
