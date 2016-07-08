@@ -116,6 +116,14 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="5bf25781-d266-4425-aaaf-9dd6001f0de0" name="68" url="http://192.168.100.68">
+        <fileTransfer host="192.168.100.68" port="22" rootFolder="/var/www/devbox" accessType="SFTP" password="dfdadfc0dfc4df9bdf98df99" username="pangjianan">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
