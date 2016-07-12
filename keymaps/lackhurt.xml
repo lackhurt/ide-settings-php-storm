@@ -1,4 +1,7 @@
 <keymap version="1" name="lackhurt" parent="Mac OS X 10.5+">
+  <action id="ChangesView.CreatePatchFromChanges">
+    <keyboard-shortcut first-keystroke="ctrl meta p" />
+  </action>
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="meta alt z" />
     <keyboard-shortcut first-keystroke="ctrl meta r" />
