@@ -108,7 +108,7 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="a3522969-edba-40d1-a1e4-a43054ad5b02" name="48" url="http://192.168.100.48">
+      <webServer id="a3522969-edba-40d1-a1e4-a43054ad5b02" name="48" url="http://192.168.100.48:8073">
         <fileTransfer host="192.168.100.48" port="22" rootFolder="/var/www/devbox" accessType="SFTP" password="dfdddfdddfdd" username="www">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
