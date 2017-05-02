@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="25fdb267-2801-4d3a-b3cb-dfc3a4ce5266" name="31" url="http://192.168.100.31">
-        <fileTransfer host="192.168.100.31" port="22" rootFolder="/var/www/devbox/" accessType="SFTP" password="dfdadfc0dfc4df9bdf98df99" username="pangjianan">
+        <fileTransfer host="192.168.100.31" port="22" rootFolder="/var/www/devbox/" accessType="SFTP" username="pangjianan" password="dfdadfc0dfc4df9bdf98df99">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -10,7 +10,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="9bae2f4a-604f-4ffa-bf35-cccfb177c0ed" name="56" url="http://192.168.100.56">
-        <fileTransfer host="192.168.100.56" port="22" rootFolder="/var/www/devbox" accessType="SFTP" password="dfdddfdddfdd" username="www">
+        <fileTransfer host="192.168.100.56" port="22" rootFolder="/var/www/devbox" accessType="SFTP" username="www" password="dfdddfdddfdd">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -18,7 +18,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="bd777071-d68a-40a4-818a-fb3a237cf62e" name="24devbox" url="http://192.168.100.24">
-        <fileTransfer host="192.168.100.24" port="22" rootFolder="/tmp/pangjianan/devbox" accessType="SFTP" password="dfdddfdddfdd" username="www">
+        <fileTransfer host="192.168.100.24" port="22" rootFolder="/tmp/pangjianan/devbox" accessType="SFTP" username="www" password="dfdddfdddfdd">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -26,7 +26,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="d3dd9fc3-942c-45fd-82e4-8353d97babbe" name="56website" url="http://192.168.100.56:9500">
-        <fileTransfer host="192.168.100.56" port="22" accessType="SFTP" password="dfdadfc0dfc4df9bdf98df99" username="www">
+        <fileTransfer host="192.168.100.56" port="22" accessType="SFTP" username="www" password="dfdadfc0dfc4df9bdf98df99">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -37,7 +37,7 @@
         <fileTransfer mountedRoot="/Projects/trunk_mount" accessType="MOUNT" />
       </webServer>
       <webServer id="83dd387a-5c82-4dc4-a9a9-94c4b73eb938" name="31DBMigration" url="http://192.168.100.31">
-        <fileTransfer host="192.168.100.31" port="22" rootFolder="/var/www/devbox/DBMigrate/" accessType="SFTP" password="dfdadfc0dfc4df9bdf98df99" username="root">
+        <fileTransfer host="192.168.100.31" port="22" rootFolder="/var/www/devbox/DBMigrate/" accessType="SFTP" username="root" password="dfdadfc0dfc4df9bdf98df99">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -45,7 +45,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="da9e4b59-2695-44c7-88ab-8f51f82aee4e" name="31Deployer" url="http://192.168.100.31">
-        <fileTransfer host="192.168.100.31" port="22" rootFolder="/etc/puppet" accessType="SFTP" password="dfdadfc0dfc4df9bdf98df99" username="root">
+        <fileTransfer host="192.168.100.31" port="22" rootFolder="/etc/puppet" accessType="SFTP" username="root" password="dfdadfc0dfc4df9bdf98df99">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -53,7 +53,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="8b047af5-69f4-4d9b-8567-ef8250915f27" name="158" url="http://192.168.1.158">
-        <fileTransfer host="192.168.1.158" port="22" rootFolder="/var/www/cacti/" accessType="SFTP" password="dfdadfc0dfc4df9bdf98df99" username="pangjianan">
+        <fileTransfer host="192.168.1.158" port="22" rootFolder="/var/www/cacti/" accessType="SFTP" username="pangjianan" password="dfdadfc0dfc4df9bdf98df99">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -61,7 +61,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="a0be9ed0-8781-4b87-9b19-41db9b35fcfc" name="spf.me" url="http://spf.me">
-        <fileTransfer host="spf.me" port="22" rootFolder="/var/www/jenkins/player_life/" accessType="SFTP" password="dfcbdfdadfcbdfc9dfc2dfcf" username="apache">
+        <fileTransfer host="spf.me" port="22" rootFolder="/var/www/jenkins/player_life/" accessType="SFTP" username="apache" password="dfcbdfdadfcbdfc9dfc2dfcf">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -69,7 +69,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="31280a87-e6ff-4bf6-b177-e5be7bc6f908" name="35" url="http://192.168.100.35">
-        <fileTransfer host="192.168.100.35" port="22" rootFolder="/var/www/devbox/" accessType="SFTP" password="dfdddfdddfdd" username="www">
+        <fileTransfer host="192.168.100.35" port="22" rootFolder="/var/www/devbox/" accessType="SFTP" username="www" password="dfdddfdddfdd">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -77,7 +77,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="4297da3f-dc77-47ed-8431-290fb445af09" name="56Deployer" url="http://192.168.100.56">
-        <fileTransfer host="192.168.100.56" port="22" rootFolder="/etc/puppet" accessType="SFTP" password="dfdadfc0dfc4df9bdf98df99" username="root">
+        <fileTransfer host="192.168.100.56" port="22" rootFolder="/etc/puppet" accessType="SFTP" username="root" password="dfdadfc0dfc4df9bdf98df99">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -85,7 +85,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="16c4faee-0a73-4ec7-9d01-df4600d36921" name="10" url="http://192.168.100.10">
-        <fileTransfer host="192.168.100.10" port="22" rootFolder="/var/www/devbox/" accessType="SFTP" password="dfdddfdddfdd" username="www">
+        <fileTransfer host="192.168.100.10" port="22" rootFolder="/var/www/devbox/" accessType="SFTP" username="www" password="dfdddfdddfdd">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -93,7 +93,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="52dc2a6d-6774-4e08-b2bb-0cb4273dc06a" name="56bi" url="http://192.168.100.56">
-        <fileTransfer host="192.168.100.56" port="22" rootFolder="/var/www/BI/" accessType="SFTP" password="dfdadfc0dfc4df9bdf98df99" username="root">
+        <fileTransfer host="192.168.100.56" port="22" rootFolder="/var/www/BI/" accessType="SFTP" username="root" password="dfdadfc0dfc4df9bdf98df99">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -101,7 +101,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="ccbd5efa-5a94-43f8-807e-e4ee442eefa9" name="45" url="http://192.168.100.45">
-        <fileTransfer host="192.168.100.45" port="22" rootFolder="/var/www/devbox" accessType="SFTP" password="dfdadfc0dfc4df9bdf98df99" username="pangjianan">
+        <fileTransfer host="192.168.100.45" port="22" rootFolder="/var/www/devbox" accessType="SFTP" username="pangjianan" password="dfdadfc0dfc4df9bdf98df99">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -109,7 +109,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="a3522969-edba-40d1-a1e4-a43054ad5b02" name="48" url="http://192.168.100.48:8073">
-        <fileTransfer host="192.168.100.45" port="22" rootFolder="/var/www/devbox" accessType="SFTP" password="dfdddfdddfdd" username="www">
+        <fileTransfer host="192.168.100.45" port="22" rootFolder="/var/www/devbox" accessType="SFTP" username="www" password="dfdddfdddfdd">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -117,7 +117,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="5bf25781-d266-4425-aaaf-9dd6001f0de0" name="68" url="http://192.168.100.68">
-        <fileTransfer host="192.168.100.68" port="22" rootFolder="/var/www/devbox" accessType="SFTP" password="dfdadfc0dfc4df9bdf98df99" username="pangjianan">
+        <fileTransfer host="192.168.100.68" port="22" rootFolder="/var/www/devbox" accessType="SFTP" username="pangjianan" password="dfdadfc0dfc4df9bdf98df99">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
@@ -125,7 +125,15 @@
         </fileTransfer>
       </webServer>
       <webServer id="651ea679-147f-4183-b0f7-6a7eb9a9c2bf" name="84" url="http://192.168.100.48:8073">
-        <fileTransfer host="192.168.100.84" port="22" rootFolder="/var/www/devbox" accessType="SFTP" password="dfdadfc0dfc4df9bdf98df99" username="pangjianan">
+        <fileTransfer host="192.168.100.84" port="22" rootFolder="/var/www/devbox" accessType="SFTP" username="pangjianan" password="dfdadfc0dfc4df9bdf98df99">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f89ede8b-9718-4816-a60b-fa1d93d9636e" name="168" url="http://192.168.100.168">
+        <fileTransfer host="192.168.100.168" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/devbox" accessType="SFTP" keyPair="true" username="pangjianan" password="dfdadfc0dfc4df9bdf98df99">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
