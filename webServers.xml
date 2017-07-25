@@ -133,7 +133,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="f89ede8b-9718-4816-a60b-fa1d93d9636e" name="168" url="http://192.168.100.168">
-        <fileTransfer host="192.168.100.168" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/devbox" accessType="SFTP" keyPair="true" username="pangjianan" password="dfdadfc0dfc4df9bdf98df99">
+        <fileTransfer host="192.168.100.168" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/devbox/" accessType="SFTP" keyPair="true" username="pangjianan" password="dfdadfc0dfc4df9bdf98df99">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
