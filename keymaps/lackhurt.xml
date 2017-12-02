@@ -10,6 +10,9 @@
     <keyboard-shortcut first-keystroke="ctrl meta s" />
   </action>
   <action id="ChooseRunConfiguration" />
+  <action id="Diff.HighlightMode">
+    <keyboard-shortcut first-keystroke="shift ctrl meta p" />
+  </action>
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="shift meta back_space" />
     <keyboard-shortcut first-keystroke="ctrl q" />
