@@ -3,7 +3,7 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*.json" />
+    <option name="FILE_MASK" value="*.php" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
@@ -27,12 +27,12 @@
       <mask>*.j</mask>
       <mask>*.*</mask>
       <mask>*.</mask>
-      <mask>*.p</mask>
-      <mask>*.php</mask>
       <mask>*.jp</mask>
       <mask>*.jsop</mask>
       <mask>*.jsonp</mask>
       <mask>*.json</mask>
+      <mask>*.p</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>
